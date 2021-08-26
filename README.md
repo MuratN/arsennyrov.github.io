@@ -10,22 +10,22 @@
 Представляю несколько своих учебных примеров:
 
 1. Учебный пример по верстке классического лендинга на чистом HTML и CSS
-          (Демо: https://arsennyrov.github.io/1_uber)
+        <br>  (Демо: https://arsennyrov.github.io/1_uber)
 
 2. КиноМонстр - еще один учебный пример по верстке на чистом HTML и CSS
-          (Демо: https://arsennyrov.github.io/2_kinomonster)
+        <br>  (Демо: https://arsennyrov.github.io/2_kinomonster)
 4. Простейший калькулятор на чистом JavaScript.
    Хорошее задание на начальном этапе обучения JavaScript ввиду простоты и естественности постановки задачи (Демо: https://arsennyrov.github.io/3_calculator/index.html)
-          (Демо: https://arsennyrov.github.io/3_calkulator)
+        <br>  (Демо: https://arsennyrov.github.io/3_calkulator)
 4. Йога - классический лендинг на JavaScript
    cо слайдером, таймером обратного отсчета,
    работой с формами и небольшим калькулятором.
-   (Демо: https://arsennyrov.github.io/4_yoga)
+          <br> (Демо: https://arsennyrov.github.io/4_yoga)
 
 5. Кекстаграм - учебый проект, реализован на HTML+CSS и JavaScript.
    Данные загружаются с сервера через AJAX, а также со своего диска средствами JavaScript. Реализовано применение различных эффектов к фотографиям.
    Используется регулярное выражение.
-             (Демо: https://arsennyrov.github.io/5_kекstagram/)
+           <br> (Демо: https://arsennyrov.github.io/5_kекstagram/)
              
              
              
