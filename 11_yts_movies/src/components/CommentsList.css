@@ -1,0 +1,33 @@
+.div-img {
+	position: relative;
+	top: -30px;
+	margin-left: 5px;
+	width: 30px;
+	height: 30px;
+	background-color: #e4d5d5;
+}
+
+.url3 {
+	display: inline;
+	margin-top: 40px;
+}
+
+.item-text {
+	position: relative;
+	top: -35px;
+	left: 50px;
+}
+
+.basket {
+	position: absolute;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	top: 25px;
+	right: 10px;
+	font-size: 10px;
+}
+
+.list-item {
+	padding-bottom: 20px;
+}

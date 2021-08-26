@@ -1,0 +1,371 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: rgb(66, 61, 61);
+}
+
+.content {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+}
+
+.content1 {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	min-height: calc(100vh - 70px - 64px);
+	text-align: center;
+	opacity: 0.5;
+}
+
+.nav {
+	padding: 0 1rem;
+	width: 100%;
+	height: 70px;
+	color: #fff;
+	background-color: #000;
+}
+
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.brand-logo {
+	display: block;
+	font-size: 32px;
+	font-weight: 700;
+	padding-top: 10px;
+	padding-left: 20px;
+	color: rgb(250, 172, 17);
+}
+
+.menu {
+	display: block;
+	font-size: 20px;
+	font-weight: 400;
+	padding-top: 25px;
+	padding-right: 100px;
+	color: rgb(250, 172, 17);
+}
+
+.content {
+	min-height: calc(100vh - 70px - 64px);
+}
+
+.movies,
+.movies-basket {
+	position: relative;
+	min-height: 80%;
+	margin-top: 20px;
+	display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+}
+
+.movies-basket {
+	opacity: 0.5;
+}
+
+.search-btn {
+	position: absolute;
+	top: 0;
+	right: 0.5rem;
+}
+
+label:not(:last-child) {
+	margin-right: 1.5rem;
+}
+
+.card {
+	width: 200px;
+	margin-top: 20px;
+	margin-right: 20px;
+	background-color: rgb(66, 61, 61);
+}
+
+.card-image {
+	padding: 5px;
+}
+
+.card-content {
+	width: 190px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #e6e6e6;
+}
+
+.activator {
+	width: 190px;
+}
+
+a.button10 {
+	display: inline-block;
+	position: relative;
+	top: 15px;
+	left: 70px;
+	height: 31px;
+	margin-left: 10px;
+	color: black;
+	font-size: 125%;
+	font-weight: 700;
+	text-decoration: none;
+	user-select: none;
+	padding: 0.25em 0.5em;
+	outline: none;
+	border: 1px solid rgb(250, 172, 17);
+	border-radius: 7px;
+	background: rgb(255, 212, 3)
+		linear-gradient(rgb(255, 212, 3), rgb(248, 157, 23));
+	box-shadow: inset 0 -2px 1px rgba(0, 0, 0, 0),
+		inset 0 1px 2px rgba(0, 0, 0, 0), inset 0 0 0 60px rgba(255, 255, 0, 0);
+	transition: box-shadow 0.2s, border-color 0.2s;
+}
+a.button10:hover {
+	box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0),
+		inset 0 1px 2px rgba(0, 0, 0, 0),
+		inset 0 0 0 60px rgba(255, 255, 0, 0.5);
+}
+a.button10:active {
+	padding: calc(0.25em + 1px) 0.5em calc(0.25em - 1px);
+	border-color: rgba(177, 159, 0, 1);
+	box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0.1),
+		inset 0 1px 2px rgba(0, 0, 0, 0.3),
+		inset 0 0 0 60px rgba(255, 255, 0, 0.45);
+}
+
+.search {
+	height: 30px;
+	fontsize: 24px;
+	background-color: #fff;
+}
+
+.inputField {
+	position: relative;
+	top: 12px;
+	left: 70px;
+	width: 500px;
+	height: 40px;
+	display: block;
+	font-size: 18px;
+	font-weight: 400;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+.submitBtn {
+	width: 300px;
+	background: green;
+	height: 50px;
+	border: 0;
+}
+
+.wropper-search {
+	position: relative;
+	top: 85px;
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+}
+
+select {
+	display: block;
+	position: relative;
+	left: 0px;
+	color: #04071f;
+	font-size: 18px;
+	font-weight: 400;
+	height: 30px;
+
+	border: 0 !important;
+	/* needed */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%238C98F2'><polygon points='0,0 100,0 50,50'/></svg>")
+		no-repeat;
+	background-size: 12px;
+	background-position: calc(100% - 2px) center;
+	background-repeat: no-repeat;
+	background-color: rgb(250, 172, 17);
+}
+
+.wropper {
+	position: relative;
+	top: -70px;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.pselect {
+	font-size: 18px;
+	font-weight: 500;
+	color: rgb(255, 212, 3);
+}
+
+.label-select {
+	width: 100px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.hr-shelf {
+	position: relative;
+	width: 95%;
+	top: 10px;
+}
+
+.select {
+	position: relative;
+	top: -5px;
+}
+
+.movie-detalis {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 5px;
+	width: 60%;
+	min-height: 65%;
+	background-color: #e4d5d5;
+}
+
+.movie-image {
+	display: block;
+	margin: 10px;
+	min-height: 300px;
+}
+
+.wropper-comment {
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+
+.comment {
+	display: block;
+	margin-top: 10px;
+	margin-left: 30px;
+	padding: 10px 20px;
+	min-width: 50%;
+	min-height: 280px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #000;
+	background-color: #e6e6e6;
+}
+
+.send {
+	display: block;
+	position: relative;
+	width: 60px;
+	height: 36px;
+	left: 20px;
+	top: 282px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #000;
+	background-color: rgb(250, 172, 17);
+	border-radius: 5px;
+}
+
+.movie-detalis-close {
+	position: absolute;
+	top: -15px;
+	right: 0;
+	padding: 0 10px;
+	font-size: 45px;
+	color: #000;
+	cursor: pointer;
+}
+
+.footer {
+	width: 100%;
+	height: 64px;
+	background-color: rgb(43, 41, 41);
+}
+
+.containerf {
+	padding-top: 10px;
+	padding-left: 20px;
+	color: #fff;
+	background-color: rgb(43, 41, 41);
+}
+
+.footera {
+	color: rgb(250, 172, 17);
+}
+
+.pagination {
+	display: flex;
+	justify-content: left;
+	margin-top: 40px;
+	width: 100%;
+	height: 30px;
+}
+
+.page-item {
+	width: 50px;
+	margin-left: 10px;
+}
+
+.page-link {
+	display: block;
+	width: 36px;
+	height: 36px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #000;
+	background-color: #9b9999;
+	border-radius: 5px;
+}
+
+ul li::marker {
+	font-size: 0;
+}
+
+.btn-commets {
+	width: 40px;
+	height: 32px;
+}
+
+.list-item {
+	display: block;
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 18px;
+	font-weight: 500;
+	color: #000;
+}
+
+.div-basket {
+	position: relative;
+	top: 10px;
+	left: -5px;
+}
+
+.div-img {
+	position: relative;
+	top: -30px;
+	margin-left: 5px;
+	width: 30px;
+	height: 30px;
+	background-color: #e4d5d5;
+}
