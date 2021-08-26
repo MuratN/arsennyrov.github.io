@@ -14,9 +14,9 @@
 
 2. КиноМонстр - еще один учебный пример по верстке на чистом HTML и CSS
         <br>  (Демо: https://arsennyrov.github.io/2_kinomonster)
-4. Простейший калькулятор на чистом JavaScript.
-   Хорошее задание на начальном этапе обучения JavaScript ввиду простоты и естественности постановки задачи (Демо: https://arsennyrov.github.io/3_calculator/index.html)
-        <br>  (Демо: https://arsennyrov.github.io/3_calkulator)
+3. Простейший калькулятор на чистом JavaScript.
+   Хорошее задание на начальном этапе обучения JavaScript ввиду простоты и естественности постановки задачи
+        <br>  (Демо: https://arsennyrov.github.io/3_calculator)
 4. Йога - классический лендинг на JavaScript
    cо слайдером, таймером обратного отсчета,
    работой с формами и небольшим калькулятором.
