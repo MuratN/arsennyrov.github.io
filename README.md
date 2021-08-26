@@ -35,8 +35,9 @@
         <b> <br> npm install 
            <br> npm start 
         </b>
-
-<BR>
+<br>
+<hr>
+<br>
 6. Традиционный учебный пример на React - TODO - Список текуших дел.
    Реализован на чистом React.
 
